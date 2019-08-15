@@ -42,8 +42,7 @@ clean:
 \trm -f ../obj/$dir$file2$ofile
 \trm -f ../bin/$dir" >$dir/make/Makefile
 
-echo " Executing with gdb
-gdb ./$dir" >$dir/bin/execute_with_gdb.sh
+echo "gdb ./$dir" >$dir/bin/execute_with_gdb.sh
 
 chmod 777 $dir/bin/execute_with_gdb.sh
 
